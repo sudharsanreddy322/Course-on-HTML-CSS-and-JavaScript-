@@ -1,0 +1,90 @@
+/* Style for Heading */
+h1 {
+    margin-bottom: 15px;
+    text-align: center;
+    color: #32ff4dfa;
+    font-size: 40px;
+  }
+
+  .box{
+    width: 100%;
+  }
+
+  .title{
+    text-align: center;
+    border: 5px solid black;
+    width: 200px;
+    height: 20px;
+    padding: 5px;
+    float: right;
+    margin-right: 30px;
+    margin-top: 0px;
+    font-weight: bold;
+  }
+  .description{
+    border: 5px solid black;
+    width: 90%;
+    height: auto;
+    margin: 2.5%;
+    color: black;
+    font-size: 20px;
+    padding: 2%;
+    padding-top: 55px;
+    font-weight: normal;
+    background-color: rgba(0, 0, 0, 0.267);
+  }
+
+  .one{
+    background-color: #FFB6C1;
+  }
+
+  .two{
+    background-color: #0f059e80;
+  }
+
+  .three{
+    background-color: #cc1e18cb;
+  }
+  
+  /* For Large Devices */
+  @media (min-width: 992px) {
+    .col-lg-4 {
+      float: left;
+      width: 33.33%;
+    }
+    .title{
+      margin-right: 8px;
+    }
+  }
+  /* For Medium Devices like Tablets */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6,.col-md-12 {
+      float: left;
+    }
+    .col-md-6 {
+      width: 50%;
+    }
+    .col-md-12 {
+      /* margin-left: -10px; */
+      width: 100%;
+    }
+    .one{
+      margin-right: 7px;
+    }
+    .two{
+      margin-right: 7px;
+    }
+    .three{
+      margin-right: 24px;
+    }
+  }
+   /* For Mobile Phones */
+  @media (min-width: 0px) and (max-width: 767px) {
+    .col-sm-12 {
+      float: left;
+      width: 100%;
+    }
+    .title{
+      margin-right: 16px;
+    }
+  }
